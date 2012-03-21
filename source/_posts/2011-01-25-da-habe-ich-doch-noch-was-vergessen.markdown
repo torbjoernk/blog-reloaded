@@ -18,7 +18,7 @@ Wem die 17 Pfund für das *London Eye* zu teuer sind, dem ist die Investition vo
 
 Im Anschluss führte mich der Weg entlang des Südufers der Themse zur *Tate Modern*. Derzeit ist dort eine sehr (!) große Fläche mit Abermillionen gefälschter Sonnenblumenkernen zentimeterhoch bedeckt. Der chinesische Künstler *Au Weiwei* ist für diese Aktion [der Unilever Series](http://www.tate.org.uk/modern/exhibitions/unileverseries2010/default.shtm) "verantwortlich". Dieses, leider nur englischsprachige, Video erklärt den Hintergrund dieser Aktion: *Sunflower Seeds*.
 
-{% video http://www.youtube.com/v/PueYywpkJW8 %}
+{% video http://www.youtube.com/watch?v=PueYywpkJW8 %}
 
 Auch der Rest der Tate Modern ist wirklich sehenswert. Ja, eigentlich schon das Gebäude an sich, was ein altes Kraftwerk ist. Derzeit wird hinter dem Hauptgebäude kräftig gewerkelt und eine Erweiterung gebaut. Wir aber wohl noch ein paar Jahre brauchen, bis das fertig ist.
 

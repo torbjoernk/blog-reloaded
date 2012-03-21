@@ -4,11 +4,11 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-#ssh_user       = "localhost"
-#ssh_port       = "22"
-document_root  = "../ftp/blog"
-rsync_delete   = true
-deploy_default = "rsync"
+ssh_user = "user@domain.com"
+ssh_port = "22"
+document_root = "../ftp/blog/"
+rsync_delete = true
+deploy_default = "copyto"
 
 # This will be configured for you when you run config_deploy
 deploy_branch  = "gh-pages"
@@ -237,8 +237,23 @@ task :rsync do
     exclude = "--exclude-from '#{File.expand_path('./rsync-exclude')}'"
   end
   puts "## Deploying website via Rsync"
+  ok_failed system("rsync -avze 'ssh -p #{ssh_port}' #{exclude} #{"--delete" unless rsync_delete == false} #{public_dir}/ #{ssh_user}:#{document_root}")
+end
+
+desc "Deploy website via straight copy (optional argument 'clean' for prior complete removal)"
+task :copyto do |args|
+  puts "## Mounting remote FTP storage"
   ok_failed system("../mount_tobbe_ftp.sh")
-  ok_failed system("rsync -vrlpDh #{exclude} #{"--delete" unless rsync_delete == false} #{public_dir}/ #{document_root}")
+  if args.to_s.casecmp("clean") == 0
+    puts "## Remove all files"
+    ok_failed system("rm -rf #{document_root}*")
+  else
+    puts "## Leaving remote files untouched. Just updating."
+  end
+  puts "## Deploying website via plain copy"
+  puts "##!! This will ignore all files marked as 'exclude'"
+  ok_failed system("cp -ruv #{public_dir}/* #{document_root}")
+  puts "## Unmounting remote FTP storage"
   ok_failed system("../unmount_ftp.sh")
 end
 

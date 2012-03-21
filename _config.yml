@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
+url: http://torbjoern-klatt.de
 title: Torbjörn Klatt
 subtitle: It's just me.
 author: Torbjörn Klatt
@@ -13,7 +13,7 @@ description: A blog about my life and things encountered.
 # You can customize the format as defined in
 # http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
 # Additionally, %o will give you the ordinal representation of the day
-date_format: "%d.%m.%Y"
+date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: /atom.xml
