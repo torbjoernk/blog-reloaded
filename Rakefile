@@ -237,7 +237,9 @@ task :rsync do
     exclude = "--exclude-from '#{File.expand_path('./rsync-exclude')}'"
   end
   puts "## Deploying website via Rsync"
-  ok_failed system("rsync -vrlpD #{exclude} #{"--delete" unless rsync_delete == false} #{public_dir}/ #{document_root}")
+  ok_failed system("../mount_tobbe_ftp.sh")
+  ok_failed system("rsync -vrlpDh #{exclude} #{"--delete" unless rsync_delete == false} #{public_dir}/ #{document_root}")
+  ok_failed system("../unmount_ftp.sh")
 end
 
 desc "deploy public directory to github pages"
