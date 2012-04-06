@@ -6,3 +6,64 @@ comments: false
 sharing: true
 footer: true
 ---
+###Die frühen Jahre
+Im Dezember 1987 am nördlichen Rand des Ruhrgebiets, in *Marl*, geboren und noch etwas weiter 
+nördlicher, in *Haltern am See*, aufgewachsen, absolvierte ich dort nach ausgeglichener Kindheit und
+entspannter Jugend mein englisch-bilinguales Abitur im Sommer 2007.
+
+###Grundstudium
+Für mein Studium zog es mich dann den Interessen halber an den Rhein nach *Remagen* an den 
+*RheinAhrCampus*.
+An der dort ansässigen *Fachhochschule Koblenz* begann ich das Bachelorstudium *Biomathematik* zum
+Sommersemester 2008.
+Mein viertes Fachsemester verbrachte ich von Juli bis Dezember 2009 an der *University of Otago*
+in *Dunedin*, Neuseeland.
+Diese Zeit habe ich in meinem Blog *Going to Otago* festgehalten, das bisher sämtliche Umzüge und
+Umstrukturierungen meiner Webseite tapfer überstanden hat.
+
+####Auslandserfahrungen
+Nach einem erfolgreichen und fachlich interessanten studentischen Praktikums im Frühjahr 2010 am
+*Fraunhofer Institut für wissenschaftliches Rechnen und Algorithmen* in *Stankt Augustin* bekam
+ich im folgenden Sommer die Möglichkeit meine anstehende Bachelorarbeit am *Cancer Research UK* in
+*London* zu erarbeiten.
+Und so kam ich zu meiner, vom *ERASMUS Placements* geförderten, Zeit in London von August 2010 bis
+Februar 2011 im Lab von *Dr. Almut Schulze* und meinem Professor am *RheinAhrCampus*, *Dr. Maik 
+Kschischo*.
+Auch darüber habe ich wieder gebloggt.
+
+###Masterstudium
+Für mein Masterstudium verschlug es mich auf Grund meiner Interessen und des Angebots an die 
+*Goethe Universität Frankfurt am Main*, wo ich seit dem Wintersemester 2011/2012 im 
+Masterstudiengang *Computational Science* den Schwerpunkt *Scientific Computing* belege.
+In meinen studentischen Nebenjobs befasse ich mich zum Einen am *Goethe Center for Scientific 
+Computing* mit der Modellierung und Simulation von Diffusionsprozessen durch die Haut.
+Zum Anderen bin ich beim Aufbau und der Einrichtung eines neuen Hochleistungsrechners an der *GSI*
+in Darmstadt behilflich.
+
+###Engagement
+Seit 2007 bin ich in der *Distributed Computing*-Szene tätig und ein Jahr später Mitglied im 
+gemeinnützigen Verein *Rechenkraft.net e.V.* geworden, der sich dem Einsatz vernetzter Computer
+zur Unterstützung von Bildung und Forschung versprochen hat.
+Im Sommer 2010 wurde ich zum stellvertretenden Vorsitzenden gewählt und habe als dieser auf dem
+*internationalen BOINC-Workshop 2011 in Hannover* einen Vortrag über die Tätigkeiten des Vereins 
+gehalten.
+
+###Qualifikationen
+Ich bin sehr computeraffin und setze ausschließlich verschiedene Linuxdistributionen als 
+Betriebssysteme auf meinen Computern ein.
+Vorzugsweise *openSUSE* und *Debian*, beide mit *KDE* als grafische Benutzeroberfläche.
+
+Seltsverständlich beherrsche ich auch einige Programmiersprachen:
+    MATLAB      fortgeschritten                   hautptsächlich in meiner Bachelorarbeit verwendet
+                                                  mag ich nicht
+    C / C++     grundlegend bis fortgeschritten   seit März 2012 deutlich intensiver
+                                                  geht nichts ohne
+    HTML / XML  fortgeschritten                   den Zug von HTML5 habe ich noch nicht erreicht
+    CSS         grundlegend bis fortgeschritten   HTML geht nicht ohne
+    PHP         grundlegend                       seit einigen Jahren nicht mehr verwendet
+                                                  ich misse sie nicht
+    Ruby        grundlegend                       seit 2012 für das ein oder andere private Projekt
+                                                  schöne Sprache und einfach zu lesen
+    Perl        grundlegend                       vor einiger Zeit für ein paar Textparsing-Skripte
+                                                  "quick and dirty", Ruby ist schöner
+    Bash        grundlegend                       ein paar Skripte erleichtern einem das Leben
