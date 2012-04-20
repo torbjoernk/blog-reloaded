@@ -34,7 +34,7 @@ das grundlegene Layout zu generieren ...
 rake install
 {% endcodeblock %}
 ein paar Variablen zu konfigurieren ...
-{% codeblock Ausschnitt meiner Konfigurationsdatei - _config.yml lang:yaml https://github.com/torbjoernk/blog-reloaded/blob/master/_config.yml Meine _config.yml auf GitHub %}
+{% codeblock Ausschnitt meiner Konfigurationsdatei - _config.yml lang:yaml %}
 url: http://torbjoern-klatt.de
 title: Torbjörn Klatt
 subtitle: It's just me.
@@ -64,7 +64,7 @@ rake deploy # generiert die Seite und schiebt sie auf den Webspace
 {% endcodeblock %}
 Da `curlftpfs` und `rsync` sich irgendwie nicht so richtig mögen, habe ich auf das gute alte `cp`
 zurückgegriffen und mir den Rake-Task `copyto` definiert ...
-{% codeblock Meine Änderungen am Rakefile lang:ruby https://github.com/torbjoernk/blog-reloaded/blob/master/Rakefile Mein Rakefile auf GitHub %}
+{% codeblock Meine Änderungen am Rakefile lang:ruby %}
 document_root  = "../ftp/blog"
 deploy_default = "copyto"
 # snipp ...

@@ -15,6 +15,8 @@ Und das **ohne** einer Datenkrake wie *Google* dazwischen.
 
 Hier will ich nun beschreiben, wie ich das hinbekommen habe.
 
+*Es gibt ein Update (19.04.2012)*
+
 <!-- more -->
 
 ##Thunderbird
@@ -142,6 +144,23 @@ Insbesondere die Titel, Vor- und Nachnamen passten bei all den Einträge nicht,
 die einen oder mehrere Titel (wie „*Dr.*“ oder „*Prof.*“) oder der Vor- oder
 Nachname aus jeweils mehr als einem Wort bestand.
 Hier musste ich in der Weboberfläche von *ownCloud* nachbessern.
+
+**Update 19.04.2012**  
+Vor ein paar Tagen habe ich gemerkt, dass ich meine Kontakte auf dem Android
+nicht mehr wirklich bearbeiten kann.
+Das liegt insbesondere an Android bzw. Google selbst, die die entsprechende API
+nicht richtig freigegeben haben.
+So können Sync-Tools wie das hier erwähnte *CardDAV-Sync* nicht richtig auf das
+interne Format der Kontakte zugreifen.
+
+Vom gleichen Autor, wie *CardDAV-Sync* und *CalDAV-Sync* gibt es den
+[Contact Editor Pro](https://play.google.com/store/apps/details?id=org.dmfs.android.contacteditorpp)
+(€2,14) und dessen etwas reduzierte kostenlose Gegenstück.
+Wählt man beim Kontakteeditieren diesen an statt Androids eigenen aus,
+funktioniert alles wieder reibungslos.  
+Nettes Randfeature: Dieser Kontakteditor kann deutlich mehr CardDAV-Felder
+beschreiben als Androids eigener.  
+**Update Ende**
 
 ##Fazit
 Endlich funktioniert die Synchronisation meiner Kalender und Adressbücher sauber
