@@ -7,9 +7,9 @@ sharing: true
 footer: true
 ---
 ###Die frühen Jahre
-Im Dezember 1987 am nördlichen Rand des Ruhrgebiets, in *Marl*, geboren und noch etwas weiter 
-nördlicher, in *Haltern am See*, aufgewachsen, absolvierte ich dort nach ausgeglichener Kindheit und
-entspannter Jugend mein englisch-bilinguales Abitur im Sommer 2007.
+Im Dezember 1987 am nördlichen Rand des Ruhrgebiets geboren und noch etwas weiter 
+nördlicher aufgewachsen. Dort, nach ausgeglichener Kindheit und
+entspannter Jugend, absolvierte ich mein englisch-bilinguales Abitur im Sommer 2007.
 
 ###Grundstudium
 Für mein Studium zog es mich dann den Interessen halber an den Rhein nach *Remagen* an den 
@@ -35,10 +35,14 @@ Auch darüber habe ich wieder gebloggt.
 Für mein Masterstudium verschlug es mich auf Grund meiner Interessen und des Angebots an die 
 *Goethe Universität Frankfurt am Main*, wo ich seit dem Wintersemester 2011/2012 im 
 Masterstudiengang *Computational Science* den Schwerpunkt *Scientific Computing* belege.
-In meinen studentischen Nebenjobs befasse ich mich zum Einen am *Goethe Center for Scientific 
-Computing* mit der Modellierung und Simulation von Diffusionsprozessen durch die Haut.
-Zum Anderen bin ich beim Aufbau und der Einrichtung eines neuen Hochleistungsrechners an der *GSI*
-in Darmstadt behilflich.
+In meinen studentischen Nebenjobs befasse ich mich zum einen in der Gruppe um *Prof. 
+Dr. Gabriel Wittum* am *Goethe Center for Scientific Computing* mit der Modellierung 
+und Simulation von Diffusionsprozessen durch die Haut.
+Zum Anderen bin ich beim Aufbau und der Einrichtung eines neuen Hochleistungsrechners 
+an der *GSI* in Darmstadt behilflich.
+Dort habe ich ebenfalls ein kleines Ruby-Programm geschrieben, das in Kombination 
+mit einer Weboberfläche den Betreuern des Systems einen schnellen und schönen
+Überblick über die aktuellen Temperaturen und Stromaufnahmen bietet.
 
 ###Engagement
 Seit 2007 bin ich in der *Distributed Computing*-Szene tätig und ein Jahr später Mitglied im 
@@ -58,12 +62,14 @@ Seltsverständlich beherrsche ich auch einige Programmiersprachen:
                                                   mag ich nicht
     C / C++     grundlegend bis fortgeschritten   seit März 2012 deutlich intensiver
                                                   geht nichts ohne
-    HTML / XML  fortgeschritten                   den Zug von HTML5 habe ich noch nicht erreicht
+    HTML / XML  fortgeschritten                   den Zug von HTML5 versuche ich gerade zu erreichen
     CSS         grundlegend bis fortgeschritten   HTML geht nicht ohne
-    PHP         grundlegend                       seit einigen Jahren nicht mehr verwendet
-                                                  ich misse sie nicht
+    JavaScript  grundlegend                       mit Dojo richtig mächtig
     Ruby        grundlegend                       seit 2012 für das ein oder andere private Projekt
                                                   schöne Sprache und einfach zu lesen
+    Bash        grundlegend                       ein paar Skripte erleichtern einem das Leben
+    PHP         grundlegend                       seit einigen Jahren nicht mehr verwendet
+                                                  ich misse es nicht
     Perl        grundlegend                       vor einiger Zeit für ein paar Textparsing-Skripte
                                                   "quick and dirty", Ruby ist schöner
-    Bash        grundlegend                       ein paar Skripte erleichtern einem das Leben
+
