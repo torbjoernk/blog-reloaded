@@ -2,6 +2,7 @@
 layout: page
 title: "Über mich"
 date: 2012-03-16 13:25
+update: 2012-11-04
 comments: false
 sharing: true
 footer: true
@@ -56,20 +57,21 @@ gehalten.
 Ich bin sehr computeraffin und setze ausschließlich verschiedene Linuxdistributionen als 
 Betriebssysteme auf meinen Computern ein.
 Vorzugsweise *openSUSE* und *Debian*, beide mit *KDE* als grafische Benutzeroberfläche.
+Als Entwicklungsumgebungen setze ich KDevelop für C/C++ und Aptana für Ruby ein.
+Für alles andere gibt es vim!
 
-Seltsverständlich beherrsche ich auch einige Programmiersprachen:
-    MATLAB      fortgeschritten                   hautptsächlich in meiner Bachelorarbeit verwendet
-                                                  mag ich nicht
+Seltsverständlich beherrsche ich auch einige Programmiersprachen (nach meiner Favourisierung geordnet):
     C / C++     grundlegend bis fortgeschritten   seit März 2012 deutlich intensiver
                                                   geht nichts ohne
-    HTML / XML  fortgeschritten                   den Zug von HTML5 versuche ich gerade zu erreichen
-    CSS         grundlegend bis fortgeschritten   HTML geht nicht ohne
-    JavaScript  grundlegend                       mit Dojo richtig mächtig
     Ruby        grundlegend                       seit 2012 für das ein oder andere private Projekt
                                                   schöne Sprache und einfach zu lesen
     Bash        grundlegend                       ein paar Skripte erleichtern einem das Leben
-    PHP         grundlegend                       seit einigen Jahren nicht mehr verwendet
-                                                  ich misse es nicht
+    JavaScript  grundlegend                       mit Dojo richtig mächtig
+    HTML / XML  fortgeschritten                   den Zug von HTML5 versuche ich gerade zu erreichen
+    CSS         grundlegend bis fortgeschritten   HTML geht nicht ohne
     Perl        grundlegend                       vor einiger Zeit für ein paar Textparsing-Skripte
                                                   "quick and dirty", Ruby ist schöner
-
+    MATLAB      fortgeschritten                   hautptsächlich in meiner Bachelorarbeit verwendet
+                                                  mag ich nicht
+    PHP         grundlegend                       seit einigen Jahren nicht mehr verwendet
+                                                  ich misse es nicht
