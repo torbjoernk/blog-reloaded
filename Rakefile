@@ -244,6 +244,23 @@ task :rsync do
   ok_failed system("rsync -avze 'ssh -p #{ssh_port}' #{exclude} #{rsync_args} #{"--delete" unless rsync_delete == false} #{public_dir}/ #{ssh_user}:#{document_root}")
 end
 
+desc "Deploy website via straight copy (optional argument 'clean' for prior complete removal)"
+task :copyto do |args|
+  puts "## Mounting remote FTP storage"
+  ok_failed system("../mount_tobbe_ftp.sh")
+  if args.to_s.casecmp("clean") == 0
+    puts "## Remove all files"
+    ok_failed system("rm -rf #{document_root}*")
+  else
+    puts "## Leaving remote files untouched. Just updating."
+  end
+  puts "## Deploying website via plain copy"
+  puts "##!! This will ignore all files marked as 'exclude'"
+  ok_failed system("cp -ruv #{public_dir}/* #{document_root}")
+  puts "## Unmounting remote FTP storage"
+  ok_failed system("../unmount_ftp.sh")
+end
+
 desc "deploy public directory to github pages"
 multitask :push do
   puts "## Deploying branch to Github Pages "
