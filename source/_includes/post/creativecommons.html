@@ -1,0 +1,12 @@
+{% if post.author %}
+  {% assign author = post.author %}
+{% elsif page.author %}
+  {% assign author = page.author %}
+{% else %}
+  {% assign author = site.author %}
+{% endif %}
+<div class="creativecommons">
+  <img class="creativecommons" src="/images/cc_by-nc-sa_30_de_88x31.png" alt="CC-BY-NC-SA 3.0 de" />
+  Except otherwise noted, this article ("<em>{{ page.title }}</em>") by {{ author }} is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/de/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Germany License</a>.
+</div>
+ 

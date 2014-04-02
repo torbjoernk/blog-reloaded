@@ -8,10 +8,13 @@ single: true
   {% include article.html %}
   <footer>
     <p class="meta">
-      {% include post/author.html %}
-      {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
+      {% include post/author.html %} on
+      {% include post/date.html %}{% if page.updated %}{{ page.update_formatted }}{% else %}{{ page.date_formatted }}{% endif %}
       {% include post/categories.html %}
     </p>
+    {% unless page.cc == false %}
+      {% include post/creativecommons.html %}
+    {% endunless %}
     {% unless page.sharing == false %}
       {% include post/sharing.html %}
     {% endunless %}
