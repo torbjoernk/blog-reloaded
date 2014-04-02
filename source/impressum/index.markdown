@@ -2,6 +2,7 @@
 layout: page
 title: "Impressum"
 date: 2012-03-22 21:52
+updated: 2014-04-02 16:45
 comments: false
 sharing: false
 footer: true
@@ -9,8 +10,8 @@ footer: true
 Verantwortlicher für den Inhalt dieser Seite:
 
 Torbjörn Klatt  
-Flaesheimer Str. 373  
-45721 Haltern am See
+Nußallee 4  
+50345 Hürth
 
 E-Mail: kontakt ät torbjoern minus klatt punkt de
 
